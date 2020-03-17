@@ -14,7 +14,7 @@ class TransitionBetweenViewsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_transition_between_views)
 
         btn.setOnClickListener {
-           val bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle()
+            val bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle()
             val intent = Intent(this, BackActivity::class.java)
             startActivity(intent, bundle)
         }
