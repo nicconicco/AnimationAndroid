@@ -6,6 +6,9 @@
             </targets>
         </changeBounds>
 
+    <transition
+        class="androidx.transition.Slide"/>
+
     <fade android:startDelay="300" android:duration="250">
         <targets>
             <target android:targetId="@+id/btnNextScene"/>

@@ -1,6 +1,7 @@
 package com.nicco.animationsandroid.animation_part1
 
 import android.os.Bundle
+import android.view.Gravity
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.transition.Explode
@@ -18,29 +19,33 @@ class AnimationFadeExploseSlideActivity : AppCompatActivity() {
 
         btnFadeIn.setOnClickListener {
             TransitionManager.beginDelayedTransition(root, Fade())
-            if (image.visibility == View.INVISIBLE) {
-                image.visibility = View.VISIBLE
-            } else {
-                image.visibility = View.INVISIBLE
-            }
+            setStateImage()
         }
 
         btnExplose.setOnClickListener {
             TransitionManager.beginDelayedTransition(root, Explode())
-            if (image.visibility == View.INVISIBLE) {
-                image.visibility = View.VISIBLE
-            } else {
-                image.visibility = View.INVISIBLE
-            }
+            setStateImage()
         }
 
         btnSlide.setOnClickListener {
             TransitionManager.beginDelayedTransition(root, Slide())
-            if (image.visibility == View.INVISIBLE) {
-                image.visibility = View.VISIBLE
-            } else {
-                image.visibility = View.INVISIBLE
-            }
+            setStateImage()
         }
+
+        btnSlideOtherWay.setOnClickListener {
+            /**
+             *    TransitionManager.beginDelayedTransition(root, Slide(Gravity.TOP))
+             *    TransitionManager.beginDelayedTransition(root, Slide(Gravity.BOTTOM))
+             *    TransitionManager.beginDelayedTransition(root, Slide(Gravity.START))
+             */
+
+            TransitionManager.beginDelayedTransition(root, Slide(Gravity.END))
+            setStateImage()
+        }
+    }
+
+    private fun setStateImage() {
+        image.visibility =
+            if (image.visibility == View.VISIBLE) View.INVISIBLE else View.VISIBLE
     }
 }
