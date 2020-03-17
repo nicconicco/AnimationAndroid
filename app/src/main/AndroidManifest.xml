@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/BaseAppTheme">
         <activity android:name=".animation_part8.ListAnimationActivity">
+
+        </activity>
+        <activity android:name=".animation_part7.CarroucelGrayActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".animation_part7.CarroucelGrayActivity">
-
         </activity>
         <activity android:name=".animation_part6.SequenceAnimationActivity" />
         <activity android:name=".animation_part6.SharedAnimationActivity" />
@@ -25,7 +25,9 @@
         <activity android:name=".animation_part4.CoordinatedSlideActivity" />
         <activity android:name=".animation_part3.BackActivity" />
         <activity android:name=".animation_part3.TransitionBetweenViewsActivity" />
-        <activity android:name=".animation_part2.AnimationScene1Activity"></activity>
+        <activity android:name=".animation_part2.AnimationScene1Activity">
+
+        </activity>
         <activity android:name=".animation_part1.AnimationFadeExploseSlideActivity" />
         <activity android:name=".MainActivity" />
     </application>

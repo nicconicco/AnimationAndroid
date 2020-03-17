@@ -15,11 +15,11 @@ class CarroucelGrayActivity : AppCompatActivity() {
             item_list.smoothScrollToPosition(position)
         } }
     private val possibleItems = listOf(
-        Item("Airplanes", R.drawable.ic_airplane),
-        Item("Cars", R.drawable.ic_car),
-        Item("Food", R.drawable.ic_food),
-        Item("Gas", R.drawable.ic_gas),
-        Item("Home", R.drawable.ic_home)
+        Item("Robot Android", R.drawable.robot_android),
+        Item("Cars", R.drawable.robot_android),
+        Item("Food", R.drawable.robot_android),
+        Item("Gas", R.drawable.robot_android),
+        Item("Home", R.drawable.robot_android)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
