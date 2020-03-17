@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.view.ViewCompat
 import com.nicco.animationsandroid.R
-import com.nicco.animationsandroid.animation_part3.BackActivity
+import com.nicco.animationsandroid.animation_part6.SequenceAnimationActivity
 import com.nicco.animationsandroid.animation_part9.adapter.NetflixHeaderAdapter
 import com.nicco.animationsandroid.animation_part9.model.NetflixBodyUi
 import kotlinx.android.synthetic.main.activity_netflix.*
@@ -37,7 +37,7 @@ class NetflixActivity : AppCompatActivity(), ViewActionAdapter {
     }
 
     override fun onClickDetailNetflix(netflix: NetflixBodyUi, imageView: ImageView) {
-        val intent = Intent(this, BackActivity::class.java)
+        val intent = Intent(this, SequenceAnimationActivity::class.java)
         intent.putExtra(EXTRA_NETFLIX_ITEM, netflix.toString())
         intent.putExtra(EXTRA_NETFLIX_IMAGE_TRANSITION, ViewCompat.getTransitionName(imageView))
 
