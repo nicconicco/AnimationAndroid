@@ -25,6 +25,14 @@ Animacoes disponiveis
 |---|---|---|---|---|
 |![part9_animation](https://user-images.githubusercontent.com/6299673/76982553-d0b7e400-691a-11ea-9d15-59403d12a5b4.gif)|![part10_animation](https://user-images.githubusercontent.com/6299673/76982555-d1507a80-691a-11ea-8847-066b8ce075a8.gif)|![part11_animation](https://user-images.githubusercontent.com/6299673/76982556-d281a780-691a-11ea-907e-131abe735c62.gif)|![part12_animation](https://user-images.githubusercontent.com/6299673/76982564-d3b2d480-691a-11ea-8b02-f87cd7eec225.gif)|![part13_animation](https://user-images.githubusercontent.com/6299673/76982575-d9a8b580-691a-11ea-9e48-bda959385523.gif)|
 
+---------------------------------------------------------------------------------------------------------------------------
+
+### Extra: MergeAdapter
+
+|MergeAdapter|
+|---|
+|![part14_animation](https://user-images.githubusercontent.com/6299673/78304396-05c85700-7515-11ea-947b-d5ec98f6ec90.gif)|
+
 ## License
 
 ```
